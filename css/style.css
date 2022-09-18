@@ -1,14 +1,5 @@
 /* ADD IMPORT GOOGLE FONT REFERENCE FROM HTML DOC */
-
-/* Images created by: https://unsplash.com/@pawel_czerwinski */
-/* 
-html {
-    box-sizing: border-box;
-      font-size: 62.5%; }
-      @media only screen and (max-width: 75em) {
-        html {
-          font-size: 50%; } }
-         */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
   
   body {
     margin: 0;
