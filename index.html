@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- INCLUDE GOOGLE FONT (SPARTAN) OF 400 REGUALE AND 700 BOLD -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/img/xplay.png" type="image/x-icon">
+    <title>Musix Player</title>
+</head>
+<body>
+    <div class="player-container">
+        <!-- SONG -->
+        <div class="img-container">
+            <img src="img/jacinto-1.jpg" alt="Album Art">
+        </div>
+        <h2 id="title">Elelctric Chill Machine</h2>
+        <h3 id="artist">Jhard</h3>
+        <audio src="music/jacinto-1.mp3" ></audio>
+        <!-- PROGRESS -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">2:06</span>
+            </div>   
+        </div>
+        <!-- CONTROLS --> 
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src="/js/index.js"></script>
+</body>
+</html>
